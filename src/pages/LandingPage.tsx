@@ -2,6 +2,7 @@ import About from "../components/landingpage/About";
 import Games from "../components/landingpage/Games";
 import Parterns from "../components/landingpage/Parterns";
 import Build from "../components/landingpage/Build";
+import Traction from "../components/landingpage/Traction";
 import {
     DiscordIcon,
     TwitterIcon,
@@ -171,30 +172,24 @@ const LandingPage = () => {
                             <div className="border-2 border-[#16A349] p-6 bg-black glitch-box description-box">
                                 <div className="absolute inset-0 glitch-scan"></div>
                                 <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium relative z-10">
-                                    Cracked Studios is a Web3 products company
-                                    bringing{" "}
+                                    Cracked Studios is a web3 products company creating the next generation of decentralized games, consumer applications, and developer tooling. Our mission is simple and ambitious:{" "}
                                     <span className="text-[#00FF66] font-black glitch-hover">
-                                        fun
-                                    </span>
-                                    ,{" "}
-                                    <span className="text-[#16A349] font-black glitch-hover">
-                                        simplicity
-                                    </span>
-                                    , and{" "}
-                                    <span className="text-[#00FF66] font-black glitch-hover">
-                                        belonging
-                                    </span>{" "}
-                                    into decentralized technology.
+                                        make web3 fun, accessible, and culturally resonant for the next billion users
+                                    </span>.
                                 </p>
                                 <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium mt-4 relative z-10">
-                                    We design games, applications, and tools
-                                    that make Web3 feel less like code and more
-                                    like{" "}
+                                    We are a lean, execution-driven team based in Nigeria building global products that combine{" "}
                                     <span className="text-[#16A349] font-black glitch-hover">
-                                        culture
-                                    </span>{" "}
-                                    — where everyone can play, build, and
-                                    belong.
+                                        frictionless onboarding
+                                    </span>
+                                    ,{" "}
+                                    <span className="text-[#00FF66] font-black glitch-hover">
+                                        sticky gameplay
+                                    </span>
+                                    , and a{" "}
+                                    <span className="text-[#16A349] font-black glitch-hover">
+                                        modern content-first growth engine
+                                    </span>.
                                 </p>
                             </div>
 
@@ -237,6 +232,7 @@ const LandingPage = () => {
             <div className="relative">
                 <About />
                 <Games />
+                <Traction />
                 <Build />
                 <Parterns />
             </div>
@@ -291,30 +287,43 @@ const LandingPage = () => {
                     <div className="border-2 border-[#16A349] p-8 mb-8 bg-black glitch-box">
                         <div className="absolute inset-0 glitch-scan"></div>
                         <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium text-center max-w-3xl mx-auto relative z-10">
-                            Whether you're a gamer exploring blockchain-based
-                            fun, a non-crypto native trying web3 for the first
-                            time, or a web3 builder looking for apps and tools
-                            that actually work - we've got you covered. Join our
-                            community and be part of the web3 revolution.
+                            To be the global creative hub where fun meets utility in web3 — a place where people <span className="text-[#00FF66] font-black">play</span>, <span className="text-[#16A349] font-black">build</span>, and <span className="text-[#00FF66] font-black">belong</span>. We design products that are easy to use, fun to play, rewarding to use, and culturally resonant.
                         </p>
                     </div>
 
                     {/* CTA Buttons */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12">
-                        <button className="border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative overflow-hidden">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-12">
+                        <a
+                            href="https://t.me/+sRQ1KKINUzlhZjc8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative overflow-hidden text-center"
+                        >
                             <div className="absolute inset-0 glitch-scan"></div>
                             <span className="relative z-10">
                                 JOIN THE COMMUNITY
                             </span>
-                        </button>
-                        <button className="border-2 border-[#16A349] px-8 py-4 bg-black text-[#00FF66] font-black text-lg uppercase tracking-wider glitch-button glitch-button-outline relative overflow-hidden">
+                        </a>
+                        <a
+                            href="https://cracked-studios-e0pybs3.gamma.site/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-[#16A349] px-8 py-4 bg-black text-[#00FF66] font-black text-lg uppercase tracking-wider glitch-button glitch-button-outline relative overflow-hidden text-center"
+                        >
+                            <div className="absolute inset-0 glitch-scan"></div>
+                            <span className="relative z-10">VIEW PITCH DECK</span>
+                        </a>
+                        <a
+                            href="mailto:crackedstudios@crackedstudios.xyz"
+                            className="border-2 border-[#16A349] px-8 py-4 bg-black text-[#00FF66] font-black text-lg uppercase tracking-wider glitch-button glitch-button-outline relative overflow-hidden text-center"
+                        >
                             <div className="absolute inset-0 glitch-scan"></div>
                             <span className="relative z-10">WORK WITH US</span>
-                        </button>
+                        </a>
                     </div>
 
                     {/* Community Links - Glitch Style */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12 max-w-3xl mx-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-12 max-w-5xl mx-auto">
                         <a
                             href="#"
                             className="border-2 border-[#16A349] p-6 bg-black text-center glitch-box glitch-button relative group overflow-hidden"
@@ -338,7 +347,9 @@ const LandingPage = () => {
                             </span>
                         </a>
                         <a
-                            href="#"
+                            href="https://x.com/TweetleHQ"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="border-2 border-[#16A349] p-6 bg-black text-center glitch-box glitch-button relative group overflow-hidden"
                         >
                             <div className="absolute inset-0 glitch-scan"></div>
@@ -360,7 +371,63 @@ const LandingPage = () => {
                             </span>
                         </a>
                         <a
-                            href="#"
+                            href="https://github.com/Crackedstudio/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-[#16A349] p-6 bg-black text-center glitch-box glitch-button relative group overflow-hidden"
+                        >
+                            <div className="absolute inset-0 glitch-scan"></div>
+                            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-30 transition-opacity">
+                                <img
+                                    src="/assets/svg/icon-green-black.svg"
+                                    alt=""
+                                    className="w-6 h-6"
+                                />
+                            </div>
+                            <div className="flex justify-center mb-2 relative z-10">
+                                <svg
+                                    className="w-10 h-10"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    color="#00FF66"
+                                >
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </div>
+                            <span className="text-[#00FF66] font-black text-lg uppercase tracking-wider relative z-10">
+                                GitHub
+                            </span>
+                        </a>
+                        <a
+                            href="https://t.me/+sRQ1KKINUzlhZjc8"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-[#16A349] p-6 bg-black text-center glitch-box glitch-button relative group overflow-hidden"
+                        >
+                            <div className="absolute inset-0 glitch-scan"></div>
+                            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-30 transition-opacity">
+                                <img
+                                    src="/assets/svg/icon-green-black.svg"
+                                    alt=""
+                                    className="w-6 h-6"
+                                />
+                            </div>
+                            <div className="flex justify-center mb-2 relative z-10">
+                                <svg
+                                    className="w-10 h-10"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                    color="#00FF66"
+                                >
+                                    <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                                </svg>
+                            </div>
+                            <span className="text-[#00FF66] font-black text-lg uppercase tracking-wider relative z-10">
+                                Telegram
+                            </span>
+                        </a>
+                        <a
+                            href="mailto:crackedstudios@crackedstudios.xyz"
                             className="border-2 border-[#16A349] p-6 bg-black text-center glitch-box glitch-button relative group overflow-hidden"
                         >
                             <div className="absolute inset-0 glitch-scan"></div>
@@ -389,7 +456,7 @@ const LandingPage = () => {
                             © 2024 CRACKED STUDIOS. ALL RIGHTS RESERVED.
                         </p>
                         <p className="text-[#F2F2F2] font-medium">
-                            Making web3 fun, simple, and rewarding for everyone.
+                            Making web3 fun, accessible, and culturally resonant for the next billion users.
                         </p>
                     </div>
                 </div>
