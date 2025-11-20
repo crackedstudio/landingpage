@@ -32,10 +32,10 @@ const Parterns = () => {
                         <img src="/assets/svg/watermark-black-white.svg" alt="" className="w-20 h-20" />
                     </div>
                     <h2 className="text-5xl md:text-6xl font-black mb-4 text-[#F2F2F2] relative z-10 glitch-text">
-                        PARTNER <span className="text-[#16A349] glitch-word" data-text="WITH US">WITH US</span>
+                        THE <span className="text-[#16A349] glitch-word" data-text="CRACKEDDAO">CRACKEDDAO</span> & PARTNERSHIPS
                     </h2>
                     <p className="text-[#F2F2F2] text-lg font-medium max-w-2xl mx-auto relative z-10">
-                        Join forces with us to shape the future of web3 products and experiences
+                        Our long-term vision for open contribution and strategic partnerships
                     </p>
                 </div>
 
@@ -54,12 +54,28 @@ const Parterns = () => {
 
                         <div className="border-2 border-[#16A349] p-6 bg-black glitch-box relative overflow-hidden">
                             <div className="absolute inset-0 glitch-scan"></div>
-                            <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium mb-6 relative z-10">
-                                For potential sponsors, blockchain networks, and
-                                collaborators, we offer exciting partnership
-                                opportunities that can help shape the future of
-                                gaming.
+                            <h3 className="text-2xl font-black mb-4 text-[#16A349] uppercase relative z-10">CRACKEDDAO VISION</h3>
+                            <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium mb-4 relative z-10">
+                                CrackedDAO is our planned open contributor network and incentive layer:
                             </p>
+                            <ul className="space-y-2 relative z-10">
+                                <li className="flex items-start gap-3">
+                                    <div className="border-2 border-[#16A349] w-4 h-4 bg-[#16A349] flex-shrink-0 mt-1 glitch-pulse"></div>
+                                    <p className="text-[#F2F2F2] text-sm font-medium">Allows builders to contribute to Cracked products</p>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <div className="border-2 border-[#00FF66] w-4 h-4 bg-[#00FF66] flex-shrink-0 mt-1 glitch-pulse"></div>
+                                    <p className="text-[#F2F2F2] text-sm font-medium">Tracks contribution via XP and on-chain reputation</p>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <div className="border-2 border-[#16A349] w-4 h-4 bg-[#16A349] flex-shrink-0 mt-1 glitch-pulse"></div>
+                                    <p className="text-[#F2F2F2] text-sm font-medium">Distributes rewards, grants, and spotlight to contributors</p>
+                                </li>
+                                <li className="flex items-start gap-3">
+                                    <div className="border-2 border-[#00FF66] w-4 h-4 bg-[#00FF66] flex-shrink-0 mt-1 glitch-pulse"></div>
+                                    <p className="text-[#F2F2F2] text-sm font-medium">Creates an open innovation pipeline and decentralized product governance</p>
+                                </li>
+                            </ul>
                         </div>
 
                         {/* Partnership Types - Glitch Style */}
@@ -102,13 +118,16 @@ const Parterns = () => {
                             </div>
                         </div>
 
-                        <button className="w-full border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative group overflow-hidden">
+                        <a
+                            href="mailto:crackedstudios@crackedstudios.xyz"
+                            className="w-full border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative group overflow-hidden text-center"
+                        >
                             <div className="absolute inset-0 glitch-scan"></div>
                             <span className="relative z-10">PARTNER WITH US</span>
                             <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-20 transition-opacity">
                                 <img src="/assets/svg/icon-green-black.svg" alt="" className="w-6 h-6" />
                             </div>
-                        </button>
+                        </a>
                     </div>
 
                     {/* Why Partner - Glitch Style - Offset */}
@@ -184,17 +203,25 @@ const Parterns = () => {
                         Let's discuss how we can work together to create amazing gaming experiences and grow our communities.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto relative z-10">
-                        <button className="border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative group overflow-hidden">
+                        <a
+                            href="mailto:crackedstudios@crackedstudios.xyz"
+                            className="border-2 border-[#16A349] px-8 py-4 bg-[#16A349] text-black font-black text-lg uppercase tracking-wider glitch-button relative group overflow-hidden text-center"
+                        >
                             <div className="absolute inset-0 glitch-scan"></div>
                             <span className="relative z-10">START PARTNERSHIP</span>
                             <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-20 transition-opacity">
                                 <img src="/assets/svg/icon-green-black.svg" alt="" className="w-6 h-6" />
                             </div>
-                        </button>
-                        <button className="border-2 border-[#16A349] px-8 py-4 bg-black text-[#00FF66] font-black text-lg uppercase tracking-wider glitch-button glitch-button-outline relative overflow-hidden">
+                        </a>
+                        <a
+                            href="https://cracked-studios-e0pybs3.gamma.site/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-[#16A349] px-8 py-4 bg-black text-[#00FF66] font-black text-lg uppercase tracking-wider glitch-button glitch-button-outline relative overflow-hidden text-center"
+                        >
                             <div className="absolute inset-0 glitch-scan"></div>
-                            <span className="relative z-10">DOWNLOAD DECK</span>
-                        </button>
+                            <span className="relative z-10">VIEW PITCH DECK</span>
+                        </a>
                     </div>
                 </div>
             </div>
