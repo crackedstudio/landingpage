@@ -4,8 +4,8 @@ import Reveal from "./Reveal";
 const tractionStats = [
     { value: 9314, label: "Unique on-chain users (Tweetle + Blokaz)", prefix: "", suffix: "" },
     { value: 50745, label: "Total contract interactions", prefix: "", suffix: "" },
-    { value: 9144, label: "Blokaz players onboarded", prefix: "", suffix: "" },
-    { value: 3225, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
+    { value: 14059, label: "Blokaz players onboarded", prefix: "", suffix: "" },
+    { value: 880, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
     { value: 2811, label: "Tweetle games created", prefix: "", suffix: "" },
     { value: 5, label: "Chains with live deployments", prefix: "", suffix: "" },
     { value: 100, label: "Developers mentored across Africa", prefix: "", suffix: "+" },
