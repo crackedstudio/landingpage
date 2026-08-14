@@ -2,11 +2,13 @@ import CountUpValue from "./CountUpValue";
 import Reveal from "./Reveal";
 
 const tractionStats = [
-    { value: 9314, label: "Unique on-chain users (Tweetle + Blokaz)", prefix: "", suffix: "" },
-    { value: 50745, label: "Total contract interactions", prefix: "", suffix: "" },
-    { value: 14059, label: "Blokaz players onboarded", prefix: "", suffix: "" },
-    { value: 880, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
-    { value: 2811, label: "Tweetle games created", prefix: "", suffix: "" },
+    { value: 23453, label: "Unique on-chain users (Blokaz + Nukko)", prefix: "", suffix: "" },
+    { value: 96781, label: "Total contract interactions", prefix: "", suffix: "" },
+    { value: 16557, label: "Blokaz players onboarded", prefix: "", suffix: "" },
+    { value: 6896, label: "Nukko players onboarded", prefix: "", suffix: "" },
+    { value: 12859, label: "Nukko games played", prefix: "", suffix: "" },
+    { value: 9288, label: "Nukko scores submitted on-chain", prefix: "", suffix: "" },
+    { value: 238, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
     { value: 5, label: "Chains with live deployments", prefix: "", suffix: "" },
     { value: 100, label: "Developers mentored across Africa", prefix: "", suffix: "+" },
 ];

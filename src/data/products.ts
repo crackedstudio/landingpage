@@ -22,6 +22,16 @@ export const products: Product[] = [
         category: "Game",
     },
     {
+        name: "Nukko",
+        status: "LIVE",
+        chain: "Celo Mainnet",
+        url: "https://nukko.xyz",
+        description: "Planet drop merge game built for MiniPay",
+        differentiator:
+            "6,896 players and 12,859 games played on-chain, with stablecoin revenue paid straight to treasury.",
+        category: "Game",
+    },
+    {
         name: "Uzoza",
         status: "LIVE",
         chain: "Base Mainnet",

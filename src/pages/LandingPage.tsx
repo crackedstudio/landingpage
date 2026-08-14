@@ -8,7 +8,7 @@ import MarketOpportunity from "../components/landingpage/MarketOpportunity";
 import { TwitterIcon } from "../components/BrutalistIcons";
 
 const heroStats = [
-    { value: 5, label: "Live Products", prefix: "", suffix: "" },
+    { value: 6, label: "Live Products", prefix: "", suffix: "" },
     { value: 5, label: "Chains Deployed", prefix: "", suffix: "" },
     { value: 11, label: "AI Signals (The Rig)", prefix: "", suffix: "" },
     { value: 100, label: "Developers Mentored", prefix: "", suffix: "+" },
@@ -189,7 +189,7 @@ const LandingPage = () => {
                                     Cracked Studios is a human-AI hybrid web3 studio building games, consumer apps, DeFi products, and developer infrastructure.
                                 </p>
                                 <p className="text-lg md:text-xl text-[#F2F2F2] leading-relaxed font-medium mt-4 relative z-10">
-                                    Five live products. Eleven AI agents. One team that ships.
+                                    Six live products. Eleven AI agents. One team that ships.
                                 </p>
                             </div>
 

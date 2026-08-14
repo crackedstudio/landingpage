@@ -1,11 +1,13 @@
 import CountUpValue from "../CountUpValue";
 
 const stats = [
-    { end: 9314, label: "Unique on-chain users (Tweetle + Blokaz)", prefix: "", suffix: "" },
-    { end: 50745, label: "Total contract interactions", prefix: "", suffix: "" },
-    { end: 14059, label: "Blokaz players onboarded", prefix: "", suffix: "" },
-    { end: 880, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
-    { end: 2811, label: "Tweetle games created", prefix: "", suffix: "" },
+    { end: 23453, label: "Unique on-chain users (Blokaz + Nukko)", prefix: "", suffix: "" },
+    { end: 96781, label: "Total contract interactions", prefix: "", suffix: "" },
+    { end: 16557, label: "Blokaz players onboarded", prefix: "", suffix: "" },
+    { end: 6896, label: "Nukko players onboarded", prefix: "", suffix: "" },
+    { end: 12859, label: "Nukko games played", prefix: "", suffix: "" },
+    { end: 9288, label: "Nukko scores submitted on-chain", prefix: "", suffix: "" },
+    { end: 238, label: "Blokaz active players (last 7 days)", prefix: "", suffix: "" },
     { end: 5, label: "Chains with live deployments", prefix: "", suffix: "" },
     { end: 100, label: "Developers mentored across Africa", prefix: "", suffix: "+" },
 ];

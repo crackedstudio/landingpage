@@ -91,7 +91,7 @@ const ProductsShowcase = () => {
                 <div className="border-4 border-[#16A349] p-8 bg-black glitch-box relative overflow-hidden">
                     <div className="absolute inset-0 glitch-scan"></div>
                     <p className="text-center text-[#F2F2F2] text-xl md:text-2xl font-black uppercase tracking-wider relative z-10">
-                        <span className="text-[#16A349]">TWEETLE ALONE:</span> 16,595 ON-CHAIN INTERACTIONS · 2,811 GAMES CREATED · ~98 TRANSACTIONS PER USER
+                        <span className="text-[#16A349]">BLOKAZ + NUKKO:</span> 96,781 ON-CHAIN INTERACTIONS · 23,453 PLAYERS · 12,859 NUKKO GAMES PLAYED
                     </p>
                 </div>
             </div>
